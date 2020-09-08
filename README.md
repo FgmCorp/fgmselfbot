@@ -2,7 +2,7 @@
 Official SelfBot Script 2020
 Work 100% & Safe From Banned
 
-## Installation for Termux
+## INSTALL COMMAND FOR TERMUX
 
 ```sh
 pkg update
@@ -16,7 +16,7 @@ python3 -m pip3 install -r pymodule.txt
 python3 sbfgm.py
 ```
 
-## Installation for VPS
+## INSTALL COMMAND FOR VPS
 
 ```sh
 apt-get update
