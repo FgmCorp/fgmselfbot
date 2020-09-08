@@ -1,9 +1,0 @@
-.
-.
-.
-.
-.
-.
-cd sbfgm
-python3 -m pip install -r pymodule.txt
-python3 sbfgm.py
