@@ -26,4 +26,7 @@ cd sbfgm
 python3 -m pip3 install -r pymodule.txt
 python3 sbfgm.py
 ```
+## FGM OPENCHAT
+[CLICK HERE](https://hansengianto.gq/square.html)
+
 Ⓒ FGM CORP 2020
