@@ -30,4 +30,10 @@ python3 sbfgm.py
 ## FGM OPENCHAT
 [CLICK HERE](https://hansengianto.gq/square.html)
 
+## PE ##
+- S
+Re
+VFalse
+Prfd 1 ya
+
 Ⓒ FGM CORP 2020
