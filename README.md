@@ -16,6 +16,7 @@ git clone https://github.com/FgmCorp/fgmselfbot
 cd sbfgm
 python -m pip install -r pymodule.txt
 python sbfgm.py
+ 
 ```
 
 ## INSTALL COMMAND FOR VPS
@@ -27,6 +28,7 @@ git clone https://github.com/FgmCorp/fgmselfbot
 cd sbfgm
 python3 -m pip3 install -r pymodule.txt
 python3 sbfgm.py
+ 
 ```
 ## FGM OPENCHAT
 [CLICK HERE](https://hansengianto.gq/square.html)
