@@ -20,7 +20,7 @@ except Exception as e:
     os.remove("token.json")
     sys.exit("[FGM SERVICE] BOT SHUTDOWN")
 
-print("Need Help?? Join Our Community\nHansenGianto.gq/square.html")
+print("Need Help?? Join Our Community\nhttps://hansengianto.gq/square.html")
 
 FGMMID = FGM.profile.mid
 FGMStart = time.time()
