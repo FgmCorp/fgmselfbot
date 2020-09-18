@@ -13,7 +13,7 @@ pkg upgrade
 pkg install python
 pkg install git
 git clone https://github.com/FgmCorp/fgmselfbot
-cd sbfgm
+cd fgmselfbot
 python -m pip install -r pymodule.txt
 python sbfgm.py
  
@@ -25,7 +25,7 @@ python sbfgm.py
 apt-get update
 apt install python3-pip
 git clone https://github.com/FgmCorp/fgmselfbot
-cd sbfgm
+cd fgmselfbot
 python3 -m pip3 install -r pymodule.txt
 python3 sbfgm.py
  
