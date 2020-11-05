@@ -83,7 +83,7 @@ def menuHelp():
         "restart",
         "logout"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 JOKER Lite SB 」"
     isi += "\nType: Help"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
@@ -110,12 +110,12 @@ def menuProfile():
         "updatebio [bio]",
         "updatedp"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 JOKER Lite SB 」"
     isi += "\nType: Profile"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
-    isi += "\nⒸ FGM CORP 2020"
+    isi += "\nⒸ JOKER CORP 2020"
     return isi
 
 def menuGroup():
@@ -127,7 +127,7 @@ def menuGroup():
         "grouplist",
         "groupinfo",
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 JOKER Lite SB 」"
     isi += "\nType: Group"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
@@ -140,15 +140,15 @@ def menuBroadcast():
         "gbroadcast [message]",
         "fbroadcast [message]"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 JOKER Lite SB 」"
     isi += "\nType: Broadcast"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
-    isi += "\nⒸ FGM CORP 2020"
+    isi += "\nⒸ JOKER CORP 2020"
     return isi
 
-def FGMBot(op):
+def JOKERBot(op):
     try:
             if op.type == 25:
                 msg = op.message
@@ -176,7 +176,7 @@ def FGMBot(op):
 
                         elif cmd == "help":
                             helpMessage = menuHelp()
-                            FGM.sendMessage(to, helpMessage)
+                            JOKER.sendMessage(to, helpMessage)
 
                         elif cmd == "profile":
                             helpMessage = menuProfile()
