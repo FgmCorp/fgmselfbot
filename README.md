@@ -8,30 +8,14 @@
 ## INSTALL COMMAND FOR TERMUX
 
 ```sh
-pkg update
-pkg upgrade
-pkg install python
-pkg install git
-git clone https://github.com/FgmCorp/fgmselfbot
-cd fgmselfbot
-python -m pip install -r pymodule.txt
-python sbfgm.py
- 
+Untuk Command/Perintah Cara Menjalankan Bot Silahkan Cek Video Youtube Dibawah
 ```
 
-## INSTALL COMMAND FOR VPS
+## Video Tutorial Full
+[CLICK HERE](https://youtube.com/hansengianto)
 
-```sh
-apt-get update
-apt install python3-pip
-git clone https://github.com/FgmCorp/fgmselfbot
-cd fgmselfbot
-python3 -m pip3 install -r pymodule.txt
-python3 sbfgm.py
- 
-```
 ## FGM OPENCHAT
 [CLICK HERE](https://hansengianto.gq/square.html)
 
 
-Ⓒ FGM CORP 2020
+Ⓒ FGM Bot 2020
