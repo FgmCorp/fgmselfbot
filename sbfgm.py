@@ -15,8 +15,6 @@ Special Thanks: HelloWorld & BE-TEAM
 try:
     FGM = LINE(appName="CHROMEOS\t2.3.8\tChrome_OS\t1")
 except Exception as e:
-    print(e)
-    traceback.print_tb(e.__traceback__)
     os.remove("token.json")
     sys.exit("[FGM SERVICE] BOT SHUTDOWN")
 
@@ -83,12 +81,14 @@ def menuHelp():
         "restart",
         "logout"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 FGM SelfBot 」"
     isi += "\nType: Help"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
     isi += "\nⒸ FGM CORP 2020"
+    isi += "\n\n「 FGM Community 」"
+    isi += "\nhttps://hansengianto.gq/square.html"
     return isi
 
 def menuProfile():
@@ -110,12 +110,14 @@ def menuProfile():
         "updatebio [bio]",
         "updatedp"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 FGM SelfBot 」"
     isi += "\nType: Profile"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
     isi += "\nⒸ FGM CORP 2020"
+    isi += "\n\n「 FGM Community 」"
+    isi += "\nhttps://hansengianto.gq/square.html"
     return isi
 
 def menuGroup():
@@ -127,12 +129,14 @@ def menuGroup():
         "grouplist",
         "groupinfo",
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 FGM SelfBot 」"
     isi += "\nType: Group"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
     isi += "\nⒸ FGM CORP 2020"
+    isi += "\n\n「 FGM Community 」"
+    isi += "\nhttps://hansengianto.gq/square.html"
     return isi
 
 def menuBroadcast():
@@ -140,12 +144,14 @@ def menuBroadcast():
         "gbroadcast [message]",
         "fbroadcast [message]"
     ]
-    isi  = "「 FGM Lite SB 」"
+    isi  = "「 FGM SelfBot 」"
     isi += "\nType: Broadcast"
     for waw in cmdlist:
         isi += "\n➣ "+waw.title()
     isi += "\n\n⌬ Selfbot Ver 0.1"
     isi += "\nⒸ FGM CORP 2020"
+    isi += "\n\n「 FGM Community 」"
+    isi += "\nhttps://hansengianto.gq/square.html"
     return isi
 
 def FGMBot(op):
@@ -196,13 +202,15 @@ def FGMBot(op):
                             midSelect = len(midMembers)//20
                             for mentionMembers in range(midSelect+1):
                                 no = 0
-                                ret_ = "╭━「 INFO PENTING 」"
+                                ret_ = "╭━「 FGM SelfBot 」"
                                 dataMid = []
                                 for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                     dataMid.append(dataMention.mid)
                                     no += 1
                                     ret_ += "\n┃ {}. @!".format(str(no))
                                 ret_ += "\n╰━「 Total {} Members 」".format(str(len(dataMid)))
+                                ret_ += "\n\n「 FGM Community 」"
+                                ret_ += "\nhttps://hansengianto.gq/square.html"
                                 #if dataMid != []:
                                 FGM.sendMentionV2(to, ret_, dataMid, isUnicode=True)
 
