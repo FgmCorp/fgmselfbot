@@ -106,7 +106,7 @@ class Talk(object):
     """Message"""
 
     @loggedIn
-    def sendMessage as sendText(self, to, text, contentMetadata={}, contentType=0):
+    def sendMessage(self, to, text, contentMetadata={}, contentType=0):
         msg = Message()
         msg.to, msg._from = to, self.profile.mid
         msg.text = text
