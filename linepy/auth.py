@@ -114,7 +114,7 @@ class Auth(object):
         })
 
         result = self.auth.loginZ(lReq)
-        
+      
         if result.type == LoginResultType.REQUIRE_DEVICE_CONFIRM:
             self.callback.PinVerified(result.pinCode)
 
@@ -145,6 +145,7 @@ class Auth(object):
             else:
                 raise Exception('Login failed')
 
+                
         elif result.type == LoginResultType.REQUIRE_QRCODE:
             self.loginWithQrCode()
             pass
