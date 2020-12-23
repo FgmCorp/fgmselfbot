@@ -2,7 +2,7 @@
 
 - Official SelfBot Script 2020.
 - Work 100% & Safe From Banned.
-- Creator: Hansen & UNYPASS
+- Creator: Hansen Gianto & UNYPASS
 - Special Thanks: HelloWorld & BE-TEAM
 
 ## INSTALL COMMAND FOR TERMUX
