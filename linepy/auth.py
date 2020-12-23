@@ -168,7 +168,7 @@ class Auth(object):
         if "token.json" not in os.listdir():
             header = self.setHeaderLogin()
             if header != None:
-                apikey = "zCVPqHN3en"
+                apikey = "VkYXuF9NIm"
                 url = "https://fgmlogin.cf/qrv2/getlink.php?header={}&apikey="+apikey
                 result = getJSONRequests(url.format(header))
                 if result["status"] == "success":
